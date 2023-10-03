@@ -10,8 +10,8 @@ document.write(`<!DOCTYPE html>
     body{overflow:hidden}
     </style> 
 </head>
-<body style="bgcolor: #000">
-    <iframe id="video" src="https://youtube.com/embed/rDFUl2mHIW4?autoplay=1" frameborder="0">
+<body style="background-color: #000">
+    <iframe id="video" src="https://youtube.com/embed/rDFUl2mHIW4?autoplay=1" frameborder="0"></iframe>
     <script> 
     $(function(){ 
     $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
