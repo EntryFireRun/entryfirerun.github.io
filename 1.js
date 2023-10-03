@@ -4,21 +4,11 @@ document.write(`<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인 : 엔트리</title>
-    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> 
-    <style> 
-    *{margin:0;padding:0} 
-    body{overflow:hidden}
-    </style> 
 </head>
 <body style="background-color: #000">
-    <iframe id="video" src="https://youtube.com/embed/rDFUl2mHIW4?autoplay=1" frameborder="0"></iframe>
-    <script> 
-    $(function(){ 
-    $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
-        $(window).resize(function(){ 
-        $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' }); 
-        }); 
-    }); 
-    </script> 
+    <iframe src="https://youtube.com/embed/rDFUl2mHIW4?autoplay=1" frameborder="0"></iframe> <!--  오토플레이 막혔다고 훈수둘까봐 그러는데 좀 더 로딩이 빠른것 같아(?) 넣은겁니다-->
 </body>
 </html>`)
+alert("당신은 해킹을 당했습니다")
+alert("안당한거 안다고요...?")
+alert("그럼 KIDDING을 보세요 ㅋㅋㄹㅃㅃ")
