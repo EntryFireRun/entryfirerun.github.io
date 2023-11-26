@@ -2,7 +2,15 @@ alert("당신은 해킹을 당했습니다")
 alert("안당한거 안다고요...?")
 alert("그럼 KIDDING을 보세요 ㅋㅋㄹㅃㅃ")
 document.write(`<!DOCTYPE html>
-<html lang="ko">
+<html
+lang="ko"
+id="roothtml"
+style="
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,8 +49,10 @@ id="rootbody">
         function resizeIframe() {
             var iframe = document.getElementById('YTiframe');
             var body = document.getElementById('rootbody');
+            var html = document.getElementById('roothtml');
             iframe.style.height = window.innerHeight + 'px';
-            rootbody.style.height = window.innerHeight + 'px';
+            body.style.height = window.innerHeight + 'px';
+            html.style.height = window.innerHeight + 'px';
         resizeIframe();
         window.addEventListener('resize', resizeIframe);
     </script>
