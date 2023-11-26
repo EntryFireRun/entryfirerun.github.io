@@ -25,8 +25,10 @@ style="background-color: #000;">
     frameborder="0"
     id="YTiframe"
     allowfullscreen
-    style="width: 100%;
+    style="
+        width: 100%;
         height: 100%;
+        overflow: hidden;
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer;
