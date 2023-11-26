@@ -41,10 +41,11 @@ document.write(`<!DOCTYPE html>
     <script>
         function resizeIframe() {
             var iframe = document.getElementById('YTiframe');
-            var body = document.getElementById('brootbody');
+            var body = document.getElementById('rootbody');
+            var body = document.getElementById('roothtml');
             iframe.style.height = window.innerHeight + 'px';
             rootbody.style.heidht = window.innerHeight + 'px';
-            }
+            roothtml.style.heidht = window.innerHeight + 'px';
         resizeIframe();
         window.addEventListener('resize', resizeIframe);
     </script>
