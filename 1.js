@@ -12,7 +12,6 @@ document.write(`<!DOCTYPE html>
         html, body {
             margin: 0;
             padding: 0;
-            width: 100%;
             height: 100%;
             overflow: hidden;
         }
@@ -45,8 +44,10 @@ style="background-color: #000;">
         function resizeIframe() {
             var iframe = document.getElementById('YTiframe');
             iframe.style.height = window.innerHeight + 'px';
-        resizeIframe();
-        window.addEventListener('resize', resizeIframe);
+            iframe.style.width = window.innerWidth + 'px';
+        }
+        window.onload = resizeIframe;
+        window.onresize = resizeIframe;
     </script>
 </body>
 </html>`)
