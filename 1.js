@@ -40,7 +40,7 @@ document.write(`<!DOCTYPE html>
     <!-- 밑 코드도 챗 지피티 -->
     <script>
         function resizeIframe() {
-            var iframe = document.getElementById('responsiveIframe');
+            var iframe = document.getElementById('YTiframe');
             iframe.style.height = window.innerHeight + 'px';
         }
         resizeIframe();
