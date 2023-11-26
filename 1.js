@@ -26,7 +26,7 @@ document.write(`<!DOCTYPE html>
     style="
         width: 100%;
         height: 100%;
-        overflow: auto;
+        overflow: hidden;
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer;
