@@ -1,6 +1,4 @@
-alert("당신은 해킹을 당했습니다")
-alert("안당한거 안다고요...?")
-alert("그럼 대!상!혁!을 외쳐주세요 ㅋㅋㄹㅃㅃ")
+alert("당신은 해킹을 당했습니다") alert("안당한거 안다고요...?") alert("그럼 대!상!혁!을 외쳐주세요 ㅋㅋㄹㅃㅃ")
 document.write(`<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -13,7 +11,7 @@ document.write(`<!DOCTYPE html>
     </style>
 </head>
 <body style="background-color: #000;">
-    <iframe src="https://www.youtube.com/embed/r6zIGXun57U?start=120&?autoplay=1" frameborder="0" id="YTiframe" allowfullscreen style="width: 100%; height: 100%; overflow: hidden; title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+    <iframe src="https://www.youtube-nocookie.com/embed/r6zIGXun57U?start=120&?autoplay=1" frameborder="0" id="YTiframe" allowfullscreen style="width: 100%; height: 100%; overflow: hidden; title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
     <script>
         function resizeIframe() { var iframe = document.getElementById('YTiframe'); iframe.style.height = window.innerHeight + 'px'; iframe.style.width = window.innerWidth + 'px'; }
         window.onload = resizeIframe;
