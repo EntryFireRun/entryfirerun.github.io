@@ -18,7 +18,7 @@ document.write(`<!DOCTYPE html>
         } <!-- ChatGPT가 짜준거니까 비효율적이니 뭐니 하지 마세요 -->
     </style>
 </head>
-<body style="background-color: #000;">
+<body style="background-color: #000;" id="rootbody">
     <iframe
     src="https://youtube.com/embed/rDFUl2mHIW4?autoplay=1"
     frameborder="0"
@@ -41,15 +41,10 @@ document.write(`<!DOCTYPE html>
     <script>
         function resizeIframe() {
             var iframe = document.getElementById('YTiframe');
-            var body = document.getElementByTagName('body');
-            var html = document.getElementByTagName('html');
+            var body = document.getElementById('brootbody');
             iframe.style.height = window.innerHeight + 'px';
-            iframe.style.Width = window.innerWidth + 'px';
-            body.style.height = window.innerHeight + 'px';
-            body.style.Width = window.innerWidth + 'px';
-            html.style.height = window.innerHeight + 'px';
-            html.style.Width = window.innerWidth + 'px';
-        }
+            rootbody.style.heidht = window.innerHeight + 'px';
+            }
         resizeIframe();
         window.addEventListener('resize', resizeIframe);
     </script>
