@@ -8,6 +8,15 @@ document.write(`<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인 : 엔트리</title>
     <link rel="icon" href="https://playentry.org/favicon-32x32.png">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    <style>
 </head>
 <body
 style="background-color: #000;">
