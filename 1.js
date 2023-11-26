@@ -20,7 +20,7 @@ document.write(`<!DOCTYPE html>
 </head>
 <body style="background-color: #000;">
     <iframe
-    src="https://www.youtube.com/embed/r6zIGXun57U?start=120&?autoplay=1"
+    src="https://www.youtube-nocookie.com/embed/r6zIGXun57U?start=120&?autoplay=1"
     frameborder="0"
     id="YTiframe"
     allowfullscreen
