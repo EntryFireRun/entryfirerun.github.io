@@ -1,4 +1,4 @@
-alert("당신은 해킹을 당했습니다")
+2alert("당신은 해킹을 당했습니다")
 alert("안당한거 안다고요...?")
 alert("그럼 대!상!혁!을 외쳐주세요 ㅋㅋㄹㅃㅃ")
 document.write(`<!DOCTYPE html>
@@ -46,7 +46,9 @@ document.write(`<!DOCTYPE html>
             iframe.style.height = window.innerHeight + 'px';
             iframe.style.width = window.innerWidth + 'px';
         }
-        window.onload = resizeIframe;
+        window.onload = setTimeout(function() {
+            resizeIframe;
+        }, 3000);
         window.onresize = resizeIframe;
     </script>
 </body>
