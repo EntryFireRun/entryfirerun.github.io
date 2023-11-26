@@ -7,6 +7,7 @@ document.write(`<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인 : 엔트리</title>
+    <link rel="icon" href="https://playentry.org/favicon-32x32.png">
     <style>
         body, html {
         margin: 0;
