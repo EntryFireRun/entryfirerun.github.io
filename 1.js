@@ -46,9 +46,6 @@ document.write(`<!DOCTYPE html>
             iframe.style.height = window.innerHeight + 'px';
             iframe.style.width = window.innerWidth + 'px';
         }
-        window.onload = setTimeout(function() {
-            resizeIframe;
-        }, 3000);
         window.onresize = resizeIframe;
     </script>
 </body>
