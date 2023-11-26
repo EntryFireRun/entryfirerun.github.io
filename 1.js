@@ -8,17 +8,16 @@ document.write(`<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인 : 엔트리</title>
     <link rel="icon" href="https://playentry.org/favicon-32x32.png">
-    <style>
-        body, html {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        } <!-- ChatGPT가 짜준거니까 비효율적이니 뭐니 하지 마세요 -->
-    </style>
 </head>
-<body style="background-color: #000;" id="rootbody">
+<body
+style="
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;"
+id="rootbody">
     <iframe
     src="https://youtube.com/embed/rDFUl2mHIW4?autoplay=1"
     frameborder="0"
@@ -42,10 +41,8 @@ document.write(`<!DOCTYPE html>
         function resizeIframe() {
             var iframe = document.getElementById('YTiframe');
             var body = document.getElementById('rootbody');
-            var body = document.getElementById('roothtml');
             iframe.style.height = window.innerHeight + 'px';
-            rootbody.style.heidht = window.innerHeight + 'px';
-            roothtml.style.heidht = window.innerHeight + 'px';
+            rootbody.style.height = window.innerHeight + 'px';
         resizeIframe();
         window.addEventListener('resize', resizeIframe);
     </script>
