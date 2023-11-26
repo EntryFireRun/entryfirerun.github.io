@@ -41,7 +41,14 @@ document.write(`<!DOCTYPE html>
     <script>
         function resizeIframe() {
             var iframe = document.getElementById('YTiframe');
+            var body = document.getElementByTagName('body');
+            var html = document.getElementByTagName('html');
             iframe.style.height = window.innerHeight + 'px';
+            iframe.style.Width = window.innerWidth + 'px';
+            body.style.height = window.innerHeight + 'px';
+            body.style.Width = window.innerWidth + 'px';
+            html.style.height = window.innerHeight + 'px';
+            html.style.Width = window.innerWidth + 'px';
         }
         resizeIframe();
         window.addEventListener('resize', resizeIframe);
