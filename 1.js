@@ -22,6 +22,7 @@ document.write(`<!DOCTYPE html>
     <iframe
     src="https://youtube.com/embed/rDFUl2mHIW4?autoplay=1"
     frameborder="0"
+    id="YTiframe"
     allowfullscreen
     style="width: 100%;
         height: 100%;
@@ -36,5 +37,14 @@ document.write(`<!DOCTYPE html>
         web-share">
     </iframe>
     <!--  오토플레이 막혔다고 훈수둘까봐 그러는데 좀 더 로딩이 빠른것 같아(?) 넣은겁니다-->
+    <!-- 밑 코드도 챗 지피티 -->
+    <script>
+        function resizeIframe() {
+            var iframe = document.getElementById('responsiveIframe');
+            iframe.style.height = window.innerHeight + 'px';
+        }
+        resizeIframe();
+        window.addEventListener('resize', resizeIframe);
+    </script>
 </body>
 </html>`)
