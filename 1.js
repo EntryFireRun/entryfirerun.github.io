@@ -17,8 +17,7 @@ document.write(`<!DOCTYPE html>
         }
     <style>
 </head>
-<body
-style="background-color: #000;">
+<body style="background-color: #000;">
     <iframe
     src="https://youtube.com/embed/rDFUl2mHIW4?autoplay=1"
     frameborder="0"
