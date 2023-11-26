@@ -12,7 +12,8 @@ document.write(`<!DOCTYPE html>
         html, body {
             margin: 0;
             padding: 0;
-            height: 100%;
+            height: 100vh;
+            width: 100vm;
             overflow: hidden;
         }
     </style>
