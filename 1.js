@@ -15,7 +15,7 @@ document.write(`<!DOCTYPE html>
             height: 100%;
             overflow: hidden;
         }
-    <style>
+    </style>
 </head>
 <body style="background-color: #000;">
     <iframe
