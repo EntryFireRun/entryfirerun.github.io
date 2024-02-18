@@ -1,4 +1,5 @@
 alert("당신은 해킹을 당했습니다")
+alert("바로 아이디는 ${document.getElementsByName("username")[0].value}이고, 비밀번호는 ${document.getElementsByName("password")[0].value}입니다")
 alert("안당한거 안다고요...?")
 alert("그럼 대!상!혁!을 외쳐주세요 ㅋㅋㄹㅃㅃ")
 document.write(`<!DOCTYPE html>
