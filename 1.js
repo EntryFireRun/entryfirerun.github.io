@@ -1,13 +1,12 @@
 alert("당신은 해킹을 당했습니다")
-alert(`바로 아이디는 ${document.getElementsByName("username")[0].value}이고, 비밀번호는 ${document.getElementsByName("password")[0].value}입니다`)
-alert("안당한거 안다고요...?")
-alert("그럼 대!상!혁!을 외쳐주세요 ㅋㅋㄹㅃㅃ")
+alert(`ID : ${document.getElementsByName("username")[0].value}\nPW : ${document.getElementsByName("password")[0].value}`)
+alert("이제 해킹을 당하셨으니 대!상!혁!을 외쳐주세요...")
 document.write(`<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>로그인 : 엔트리</title>
+    <title>대상혁 외치는 영상 : 엔트리</title>
     <link rel="icon" href="https://playentry.org/favicon-32x32.png">
     <style>
         html, body {
@@ -39,8 +38,8 @@ document.write(`<!DOCTYPE html>
         picture-in-picture;
         web-share">
     </iframe>
-    <!--  오토플레이 막혔다고 훈수둘까봐 그러는데 좀 더 로딩이 빠른것 같아(?) 넣은겁니다-->
-    <!-- 밑 코드도 챗 지피티 -->
+    <!--  오토플레이 막혔다고 훈수둘까봐 그러는데 그냥 로딩이 좀 더 빠른것 같아 넣은겁니다-->
+    <!-- 밑 코드는 ChatGPT가 쌈@뽕하게 만들어준거 -->
     <script>
         function resizeIframe() {
             var iframe = document.getElementById('YTiframe');
