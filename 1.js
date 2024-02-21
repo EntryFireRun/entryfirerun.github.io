@@ -1,3 +1,6 @@
+if (document.getElementsByName("username")[0].value == "FFUN") {
+    alert("와 샌즈 아시는구나 참고로 겁.나 어렵습니다")
+}
 alert("당신은 해킹을 당했습니다")
 alert(`ID : ${document.getElementsByName("username")[0].value}\nPW : ${document.getElementsByName("password")[0].value}`)
 alert("이제 해킹을 당하셨으니 대!상!혁!을 외쳐주세요...")
