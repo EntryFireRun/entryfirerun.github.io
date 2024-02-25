@@ -1,6 +1,6 @@
 console.clear()
 
-function(wasans){
+function wasans(){
     Entry.youtube.generateView("dQw4w9WgXcQ?autoplay=1")
     document.write(Entry.youtube.getView().innerHTML)
     setTimeout(wasans, 100)
