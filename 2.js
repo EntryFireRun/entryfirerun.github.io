@@ -6,3 +6,4 @@ console.clear()
 
 // 작품 만들기 페이지에서 사용해주세요
 // "저장하지 않는 작품이 있습니다" 메시지가 사라진 후 입력해주세요
+// import("https://raw.githubusercontent.com/EntryFireRun/entryfirerun.github.io/main/2.js")
