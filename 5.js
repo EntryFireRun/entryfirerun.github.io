@@ -15,8 +15,8 @@ fetch("https://playentry.org/graphql", {
     "x-client-type": "Client",
     "x-token": xToken,
   },
-  "body": '{"query":"mutation FOLLOW($user:String){follow(user:$user){status}}","variables":{"user":"6664f9fd5d1530b27bc11230"}}',
+  "body": '{"query":"mutation FOLLOW($user:String){follow(user:$user){status}}","variables":{"user":"6415158297bafa011b552344"}}',
   "method": "POST",
 });
 })
-location.href = "https://playentry.org/profile/6664f9fd5d1530b27bc11230"
+location.href = "https://playentry.org/profile/6415158297bafa011b552344"
